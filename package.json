@@ -1,0 +1,29 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "backend tutorial",
+  "homepage": "https://github.com/AhmedMAlagha/INTRO-TO-BACKEND#readme",
+  "bugs": {
+    "url": "https://github.com/AhmedMAlagha/INTRO-TO-BACKEND/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedMAlagha/INTRO-TO-BACKEND.git"
+  },
+  "license": "ISC",
+  "author": "Ahmed",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongodb": "4.1",
+    "mongoose": "^9.3.0",
+    "nodemon": "^3.1.14"
+  }
+}
